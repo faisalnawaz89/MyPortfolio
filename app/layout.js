@@ -12,7 +12,7 @@ const ovo = Ovo({
 });
 
 export const metadata = {
-  title: "FN - Portfolio",
+  title: "Portfolio | Faisal Nawaz",
   description: "Over 10 years of experience in the frontend development field, I bring deep expertise in building responsive and user-focused web applications.",
 };
 
