@@ -42,7 +42,7 @@ const Work = () => {
                 initial={{opacity: 0}}
                 whileInView={{opacity: 1}}
                 transition={{delay: 0.7, duration: 0.5}}                 
-                key={index} onClick={()=>setSelectedCategory(category)} className={`px-10 sm:py-5 py-3 border ${selectedCategory === category ? 'bg-btnHover dark:bg-btnHover' : ' bg-black '} hover:bg-btnHover transition-all ease-in border-white rounded-full text-white flex items-center gap-2 text-sm sm:text-[16px]`}>{category.toUpperCase()} <span className='sm:block hidden'>PROJECT</span></motion.button>
+                key={index} onClick={()=>setSelectedCategory(category)} className={`px-5 sm:px-10 sm:py-5 py-3 border ${selectedCategory === category ? 'bg-btnHover dark:bg-btnHover' : ' bg-black '} hover:bg-btnHover transition-all ease-in border-white rounded-full text-white flex items-center text-center gap-2 text-sm sm:text-[16px]`}>{category.toUpperCase()} </motion.button>
             ))
             }
             </div>

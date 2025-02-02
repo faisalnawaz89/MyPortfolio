@@ -271,6 +271,152 @@ export const workData = [
         bgImage: '/project_23.jpg',
         url: 'https://todo-app-ochre-delta.vercel.app/'
     },
+    {
+        id:25,
+        category: 'mockup',
+        title: 'Job Portal',
+        description: 'Developed in react and custom CSS3',
+        bgImage: '/jobportal.jpg',
+        url: 'https://jobportal-wl3w.onrender.com/'
+    },
+    {
+        id:26,
+        category: 'mockup',
+        title: 'Kind Heart Donation',
+        description: 'Developed in react and custom CSS3',
+        bgImage: '/kindheart.jpg',
+        url: 'https://kindheart.onrender.com'
+    },
+    {
+        id:27,
+        category: 'mockup',
+        title: 'Sports Car',
+        description: 'Developed in react and custom CSS3',
+        bgImage: '/faraado.jpg',
+        url: 'https://faraado.netlify.app/'
+    },
+    {
+        id:28,
+        category: 'mockup',
+        title: 'Dry Food Store',
+        description: 'Developed in react and custom CSS3',
+        bgImage: '/dryfood.jpg',
+        url: 'https://dryfood.vercel.app/'
+    },
+    {
+        id:29,
+        category: 'mockup',
+        title: 'Dice TV',
+        description: 'Developed in react and custom CSS3',
+        bgImage: '/dicetv.jpg',
+        url: 'https://dicetv-tau.vercel.app/'
+    },
+    {
+        id:40,
+        category: 'mockup',
+        title: 'Rhino',
+        description: 'Developed in react and custom CSS3',
+        bgImage: '/rhino.jpg',
+        url: 'https://rhino-77pv.onrender.com/'
+    },
+    {
+        id:30,
+        category: 'mockup',
+        title: 'Doni Charity',
+        description: 'Developed in react and custom CSS3',
+        bgImage: '/donicharity.jpg',
+        url: 'https://donicharity-xi.vercel.app/'
+    },
+    {
+        id:31,
+        category: 'mockup',
+        title: 'New Life',
+        description: 'Developed in react and custom CSS3',
+        bgImage: '/newlife.jpg',
+        url: 'https://newlife-ten.vercel.app/'
+    },
+    {
+        id:32,
+        category: 'mockup',
+        title: 'Eflyer',
+        description: 'Developed in react and custom CSS3',
+        bgImage: '/eflyer.jpg',
+        url: 'https://eflyer-2g99.onrender.com/'
+    },
+    {
+        id:33,
+        category: 'mockup',
+        title: 'Firca',
+        description: 'Developed in react and custom CSS3',
+        bgImage: '/firca.jpg',
+        url: 'https://firca.onrender.com/'
+    },
+    {
+        id:34,
+        category: 'mockup',
+        title: 'Lodge',
+        description: 'Developed in react and custom CSS3',
+        bgImage: '/lodge.jpg',
+        url: 'https://lodges-app.netlify.app/'
+    },
+    {
+        id:35,
+        category: 'mockup',
+        title: 'Inodino',
+        description: 'Developed in react and custom CSS3',
+        bgImage: '/inodino.jpg',
+        url: 'https://inodino.vercel.app/'
+    },
+    {
+        id:36,
+        category: 'mockup',
+        title: 'Caraft',
+        description: 'Developed in react and custom CSS3',
+        bgImage: '/caraftpsd.jpg',
+        url: 'https://caraft.netlify.app/'
+    },
+    {
+        id:37,
+        category: 'mockup',
+        title: 'Denso',
+        description: 'Developed in react and custom CSS3',
+        bgImage: '/denso.jpg',
+        url: 'https://denso.vercel.app/'
+    },
+    {
+        id:38,
+        category: 'mockup',
+        title: 'Codelogic',
+        description: 'Developed in react and custom CSS3',
+        bgImage: '/codelogic.jpg',
+        url: 'https://figmapractise.vercel.app/'
+    },
+    {
+        id:39,
+        category: 'mockup',
+        title: 'Smart Joint Food',
+        description: 'Developed in react and custom CSS3',
+        bgImage: '/smarterjointfood.jpg',
+        url: 'https://smartjointfood.vercel.app/'
+    },
+    {
+        id:41,
+        category: 'mockup',
+        title: 'Car Cleaners',
+        description: 'Developed in react and custom CSS3',
+        bgImage: '/cleancars.jpg',
+        url: 'https://cleancars.vercel.app/'
+    },
+    {
+        id:42,
+        category: 'mockup',
+        title: 'Covid 19',
+        description: 'Developed in react and custom CSS3',
+        bgImage: '/covid19.jpg',
+        url: 'https://covid19-azure-one.vercel.app/'
+    },
+
+    
 ]
 
 export const serviceData = [
