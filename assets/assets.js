@@ -268,8 +268,8 @@ export const workData = [
         category: 'react',
         title: 'TODO APP',
         description: 'Designed and Developed',
-        bgImage: '/project_23.jpg',
-        url: 'https://todo-app-ochre-delta.vercel.app/'
+        bgImage: '/project_23a.jpg',
+        url: 'https://todos-with-crud.vercel.app/'
     },
     {
         id:25,
