@@ -40,7 +40,6 @@ const Navabar = ({isDarkMode, setIsDarkMode}) => {
                 <li><a className="uppercase font-Outfit hover:text-gray-700 transition-colors ease-in dark:hover:text-textHover" href="#about">About me</a></li>
                 <li><a className="uppercase font-Outfit hover:text-gray-700 transition-colors ease-in dark:hover:text-textHover" href="#services">Services</a></li>
                 <li><a className="uppercase font-Outfit hover:text-gray-700 transition-colors ease-in dark:hover:text-textHover" href="#work">My work</a></li>
-                <li><a className="uppercase font-Outfit hover:text-gray-700 transition-colors ease-in dark:hover:text-textHover" href="#contact">Contact me</a></li>
             </ul>
             <div className='flex flex-1 items-center justify-end gap-2'>
                 <button onClick={()=>setIsDarkMode(prev => !prev)}><Image src={isDarkMode ? assets.sun_icon : assets.moon_icon} alt='' className='w-9 bg-white dark:bg-black rounded-full p-1.5'/></button>
