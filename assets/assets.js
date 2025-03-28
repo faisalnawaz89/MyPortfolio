@@ -149,7 +149,7 @@ export const workData = [
         title: 'Pragati',
         description: 'Designed and Developed',
         bgImage: '/project_05.jpg',
-        url: 'https://impressdrillbit.com/'
+        url: 'https://pragati.ltd/'
     },
     {
         id:21,
