@@ -38,7 +38,7 @@ const About = ({isDarkMode, setIsDarkMode}) => {
             whileInView={{opacity: 1}}
             transition={{duration: 0.6, delay: 0.8}}
             className='flex-1'>
-                <p className='mb-10 w-full font-Ovo'>Hi, I am Faisal Nawaz over 10 years of experience in the frontend development field, I bring deep expertise in creating dynamic, responsive, and user-centric web applications. I specialize in React and JavaScript, employing the best responsive design practices to ensure seamless functionality across all devices. My skill set includes crafting intuitive user interfaces, implementing smooth animations, and integrating third-party solutions such as payment gateways and advanced search features. Dedicated to delivering innovative and visually compelling solutions, I pride myself on providing tailored results that exceed expectations.</p>
+                <p className='mb-10 w-full font-Ovo'>Hi, I am Faisal Nawaz over 5 years of experience in the frontend development field, I bring deep expertise in creating dynamic, responsive, and user-centric web applications. I specialize in React and JavaScript, employing the best responsive design practices to ensure seamless functionality across all devices. My skill set includes crafting intuitive user interfaces, implementing smooth animations, and integrating third-party solutions such as payment gateways and advanced search features. Dedicated to delivering innovative and visually compelling solutions, I pride myself on providing tailored results that exceed expectations.</p>
 
                 <motion.ul 
                 initial={{opacity: 0}}

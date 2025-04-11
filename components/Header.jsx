@@ -29,7 +29,7 @@ const Header = () => {
         initial={{opacity:0 }}
         whileInView={{opacity: 1 }}
         transition={{duration: 0.6, delay: 0.7}}
-        className='max-w-3xl mx-auto font-Ovo bg-white/50 p-3 my-4 dark:bg-transparent rounded-full leading-6'>With over 10 years of experience in the frontend development field, I bring deep expertise in building responsive and user-focused web applications.</motion.p>
+        className='max-w-3xl mx-auto font-Ovo bg-white/50 p-3 my-4 dark:bg-transparent rounded-full leading-6'>Experienced Front-End Developer with 5 years of expertise in building responsive web applications using React.js, Next.js, and modern UI/UX practices. Skilled in creating scalable, high-performance solutions with a keen eye for design and usability.</motion.p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-2'>
 
             <motion.a 
@@ -38,11 +38,11 @@ const Header = () => {
             transition={{duration: 0.6, delay: 1}}
             href="#contact" className='px-10 py-3 border border-white rounded-full bg-black hover:bg-btnHover transition-all ease-in text-white flex items-center gap-2'>Contact me <Image src={assets.right_arrow_white} className='w-4' alt='' /></motion.a>
 
-            <motion.a 
+            <motion.div 
             initial={{ y: 30, opacity:0 }}
             whileInView={{ y : 0, opacity: 1 }}
             transition={{duration: 0.6, delay: 1.2}}
-            href="/images_FaisalNawaz.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center hover:bg-btnHover transition-all ease-in gap-2 bg-white dark: text-black'>My Resume <Image src={assets.download_icon} className='w-4' alt='' /></motion.a>
+            className='px-10 py-3 border rounded-full border-gray-500 flex items-center hover:bg-btnHover transition-all ease-in gap-2 bg-white dark: text-black'>My Resume <a href="/Faisal_Nawaz_Resume.pdf" download title="Download Resume"><Image src={assets.download_icon} className='w-4' alt='' /></a>  <a href="/Faisal_Nawaz_Resume.pdf" target="_blank" title="View Resume"><Image src={assets.view_icon} className='w-4' alt='' /></a></motion.div>
 
         </div>
     </div>

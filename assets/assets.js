@@ -18,6 +18,7 @@ import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
 import profile_img from './profile-img.png';
 import download_icon from './download-icon.png';
+import view_icon from './view-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
 import moon_icon from './moon_icon.png';
@@ -57,6 +58,7 @@ export const assets = {
     mail_icon_dark,
     profile_img,
     download_icon,
+    view_icon,
     hand_icon,
     header_bg_color,
     moon_icon,
@@ -269,7 +271,7 @@ export const workData = [
         title: 'TODO APP',
         description: 'Designed and Developed',
         bgImage: '/project_23a.jpg',
-        url: 'https://todos-with-crud.vercel.app/'
+        url: 'https://www.yourtodoapp.com/'
     },
     {
         id:25,
@@ -427,7 +429,7 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML5, CSS3, JavaScript, React Js, Next Js, Mongodb and MySql' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML5, CSS3, JavaScript, React Js, Next Js, PHP/MySql and Mongoose' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Graduated from University of Calcutta' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 6 projects in React' }
 ];

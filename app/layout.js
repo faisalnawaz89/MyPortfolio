@@ -13,8 +13,8 @@ const ovo = Ovo({
 });
 
 export const metadata = {
-  title: "Portfolio | Faisal Nawaz",
-  description: "Over 10 years of experience in the frontend development field, I bring deep expertise in building responsive and user-focused web applications.",
+  title: "Faisal Nawaz | Portfolio",
+  description: "Over 5 years of experience in the frontend development field, I bring deep expertise in building responsive and user-focused web applications.",
 };
 
 export default function RootLayout({ children }) {

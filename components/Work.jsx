@@ -54,27 +54,30 @@ const Work = () => {
             
             <AnimatePresence>
                 {filterData.map((project, index) => (
-                    <motion.div
+                    <motion.a 
                         key={project.id || index}
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -30 }}
                         transition={{ duration: 0.3 }}
                         whileHover={{ scale: 1.05 }}
-                        className="aspect-video overflow-hidden bg-no-repeat bg-cover shadow-lg bg-center rounded-lg relative cursor-pointer group"
-                        style={{ backgroundImage: `url(${project.bgImage})` }}
-                    >
-                        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-                        <div className='bg-white w-10/12 rounded-md shadow-lg absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7'>
-                            <div>
-                                <h2 className='font-semibold'>{project.title}</h2>
-                                <p className='text-sm text-gray-700'>{project.description}</p>
+                        href={project.url} target="_blank" >
+                        <div
+                            className="aspect-video overflow-hidden bg-no-repeat bg-cover shadow-lg bg-center rounded-lg relative cursor-pointer group"
+                            style={{ backgroundImage: `url(${project.bgImage})` }}
+                        >
+                            <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+                            <div className='bg-white w-10/12 rounded-md shadow-lg absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7'>
+                                <div>
+                                    <h2 className='font-semibold'>{project.title}</h2>
+                                    <p className='text-sm text-gray-700'>{project.description}</p>
+                                </div>
+                                <div className='border rounded-full group-hover:border-white border-black/60 w-10 aspect-square flex items-center justify-center group-hover:bg-btnHover transition'>
+                                    <Image src={assets.send_icon} alt='send icon' className='w-5 group-hover:invert' />
+                                </div>
                             </div>
-                            <a href={project.url} target="_blank" className='border rounded-full group-hover:border-white border-black/60 w-10 aspect-square flex items-center justify-center group-hover:bg-btnHover transition'>
-                                <Image src={assets.send_icon} alt='send icon' className='w-5 group-hover:invert' />
-                            </a>
                         </div>
-                    </motion.div>
+                    </motion.a>
                 ))}
             </AnimatePresence>
         </motion.div>
