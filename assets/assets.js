@@ -111,7 +111,7 @@ export const workData = [
         title: 'Hamidullah Box Wala',
         description: 'Designed and Developed',
         bgImage: '/project_17.jpg',
-        url: 'https://hamidullahboxwala.vercel.app/'
+        url: 'https://www.hamidullahboxwala.com/'
     },
     {
         id:3,
@@ -127,7 +127,7 @@ export const workData = [
         title: 'Real Steel',
         description: 'Designed and Developed',
         bgImage: '/project_18.jpg',
-        url: 'https://realsteel-olive.vercel.app/'
+        url: 'https://www.realsteelstructech.com/'
     },
     {
         id:4,
@@ -175,7 +175,7 @@ export const workData = [
         title: 'Movieratingo / Blogs',
         description: 'Designed and Developed',
         bgImage: '/project_20.jpg',
-        url: 'https://movieratingo.com/'
+        url: 'https://www.movieratingo.com/'
     },
     {
         id:7,
